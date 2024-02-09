@@ -100,18 +100,18 @@ a:active {
 @media screen and (max-width: 1180px) {
 	#contentHome {
 		gap: 2rem;
-   }
+	}
 }
 @media screen and (max-width: 920px) {
 	#contentHome {
 		grid-template-columns: repeat(2, 1fr);
-   }
+	}
 }
 @media screen and (max-width: 720px) {
 	#contentHome {
 		width: 100%;
 		grid-template-columns: repeat(1, 1fr);
-   }
+	}
 }
 #toolbar {
 	text-align: left;
@@ -154,10 +154,10 @@ a:active {
 	text-decoration: none;
 }
 #submenu ul li a:hover {
-   color:#009fc4;
+	color:#009fc4;
 }
 #submenu .current-menu-item a {
-   color:#009fc4;
+	color:#009fc4;
 }
 #content {
 	margin-left:250px;
@@ -190,7 +190,7 @@ a:active {
 	margin: 10px 0 10px 0;
 }
 .footh4 {
-   margin: 0px !important;
+	margin: 0px !important;
 }
 .sidebar-footer1 {
 	float: right;
@@ -198,60 +198,60 @@ a:active {
 	margin-right: 35px;
 }
 ul#menu-footer-menu1-1 {
-   list-style: none;
-   text-align: left;
+	list-style: none;
+	text-align: left;
 }
 ul#menu-footer-menu1-1 li {
-   border-bottom: 1px solid #fff;
-   padding: 2px 0 3px 0;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0 3px 0;
 }
 ul#menu-footer-menu1-1 li a {
-   color: #fff;
-   font-size: 15px;
-   text-decoration: none;
-   text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .sidebar-footer2 {
-   float: right;
+	float: right;
 	margin: 10px;
 	margin-top:0;
 }
 ul#menu-footer-menu1 {
-   list-style: none;
-   text-align: left;
+	list-style: none;
+	text-align: left;
 }
 ul#menu-footer-menu1 li {
-   border-bottom: 1px solid #fff;
-   padding: 2px 0 3px 0;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0 3px 0;
 }
 ul#menu-footer-menu1 li a {
-   color: #fff;
-   font-size: 15px;
-   text-decoration: none;
-   text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 ul#menu-footer-menu2 {
-   list-style: none;
-   text-align: left;
+	list-style: none;
+	text-align: left;
 }
 ul#menu-footer-menu2 li {
-   border-bottom: 1px solid #fff;
-   padding: 2px 0 3px 0;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0 3px 0;
 }
 ul#menu-footer-menu2 li a {
-   color: #fff;
-   font-size: 15px;
-   text-decoration: none;
-   text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .sidebar-footer3 {
-   float: right;
+	float: right;
 	margin-top: 20px;
 }
 ul#top-menu {
 	text-transform: uppercase;
-   padding-top: 0px !important;
-   list-style: none;
+	padding-top: 0px !important;
+	list-style: none;
 	margin: 0px;
 	padding-inline-start: 0;
 	display: flex;
@@ -259,7 +259,7 @@ ul#top-menu {
 @media screen and (max-width: 1180px) {
 	ul#top-menu {
 		display: none;
-   }
+	}
 }
 ul#top-menu li {
 	padding: 0px;
@@ -282,7 +282,7 @@ ul#top-menu > li.current_page_item > a, ul#top-menu > li.current-menu-item > a {
 ul#top-menu a {
 	font: 14px 'Open Sans', Arial, sans-serif;
 	text-decoration: none;
-   color: inherit;
+	color: inherit;
 	padding: 0.8rem 1rem;
 }
 /* ul#top-menu li:not(.callus) a:hover {
@@ -383,12 +383,12 @@ ul#top-menu li:hover > ul {
 	.mobile-menu {
 		display: flex;
 		width: 50%;
-   }
+	}
 }
 @media screen and (max-width: 720px) {
 	.mobile-menu {
 		width: 75%;
-   }
+	}
 }
 @media screen and (max-width: 1180px) {
 	.burger {
@@ -400,13 +400,13 @@ ul#top-menu li:hover > ul {
 		height: 3rem;
 		padding: 0.5rem;
 		cursor: pointer;
-   }
+	}
 	.burger > .patty {
 		background-color: #000000;
 		width: 100%;
 		height: 2px;
 		transition: 0.25s ease-in-out all;
-   }
+	}
 	.cross {
 		display: flex;
 		flex-direction: column;
@@ -416,26 +416,26 @@ ul#top-menu li:hover > ul {
 		height: 2.5rem;
 		padding: 0.5rem;
 		position: relative;
-   }
+	}
 	.cross > .patty {
 		background-color: #000000;
 		width: 100%;
 		height: 2px;
 		position: absolute;
-   }
+	}
 	.cross > .patty:nth-of-type(2) {
 		display: none;
 		transition-delay: 250ms;
 		transition: 0.25s ease-out all;
-   }
+	}
 	.cross > .patty:first-child {
 		transform: rotate(45deg);
 		transition: 0.25s ease-out all;
-   }
+	}
 	.cross > .patty:last-child {
 		transform: rotate(-45deg);
 		transition: 0.25s ease-out all;
-   }
+	}
 }
 .visible-menu {
 	transform: translateX(0);
