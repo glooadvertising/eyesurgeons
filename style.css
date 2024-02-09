@@ -1,0 +1,564 @@
+/*   
+	Theme Name: Hobart Eye Surgeons
+	Description: Custom Theme Developed By Loic Le Guilly for Gloo Advertising
+	Author: Loic Le Guilly
+	Author URI: http://www.ultimedia.com.au
+*/
+
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, td, th {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #4F4F4F;
+}
+
+html, div, body, h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+	padding:0;
+}
+
+.alignright {
+	float:right;
+	margin-left:45px;
+	margin-bottom:45px;
+}
+
+.alignleft {
+	float:left;
+	margin-right:45px;
+	margin-bottom:45px;
+}
+
+h1 {
+	font-size: 24px;
+	color: #0098c0;
+	font-weight:normal;
+	margin-bottom:25px;
+}
+
+h2 {
+	font-size: 18px;
+	color: #0098c0;
+	font-weight:normal;
+	margin-bottom:20px;
+}
+
+p {	
+	margin-bottom:20px;
+}
+
+a:link { 
+	color: #009fc4; 
+	text-decoration:underline; 
+}
+
+a:visited { 
+	color:#009fc4; 
+	text-decoration:underline; 
+}
+
+a:hover { 
+	color:#009fc4; 
+	text-decoration:underline; 
+}
+
+a:active { 
+	color:#009fc4; 
+	text-decoration:underline; 
+}
+
+/* main structure */
+
+#container{
+	margin:0 auto;
+	max-width:100%;
+	background-color:#fff;
+}
+
+#imgslider {
+	background: #fff; 
+	margin:0;
+	padding:0;
+	padding-top:5px;
+}
+
+#feature {
+	margin-top:4px;
+}
+
+#feature img {
+	width:100%;
+	height:auto;
+}
+
+#pageContainer{
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: #fff;
+}
+
+		#toolbarHome {
+
+			text-align: right;
+
+			padding-right:45px;
+
+		}
+
+		#contentHome {
+			padding: 3rem;
+		}
+
+			.oneThird {
+
+				float: left;
+
+			}
+
+		#toolbar {
+
+			text-align: left;
+
+			padding-right:45px;
+
+		}
+
+			#pageTitle {
+
+				position:relative;
+
+				display:inline-block;
+
+				font-size:26px;
+
+				top:-36px;
+
+				color:#fff;
+
+				background: #0195bb;
+
+				opacity: 0.9;
+
+				padding:15px;
+
+				padding-left:30px;
+
+				padding-right:30px;
+
+				text-transform: uppercase;
+
+			}
+
+		#page {
+
+			text-align: left;
+
+		}
+
+			#submenu {
+
+				float: left;
+
+				width:200px;
+
+				padding-left:30px;
+
+				padding-bottom:30px;
+
+			}
+
+			#submenu  ul {
+
+				list-style: none;
+
+				padding: 0;
+
+				}
+
+			#submenu  ul li {
+
+				text-transform: uppercase;
+
+				border-bottom: 1px solid #ccc;
+
+				padding: 7px 0 7px 0;
+
+				}
+
+			#submenu  ul li a {
+
+				color: #444;
+
+				font-size: 15px;
+
+				text-decoration: none;
+
+				}
+
+			#submenu  ul li a:hover {color:#009fc4;}
+
+			#submenu  .current-menu-item a {color:#009fc4;}
+
+
+
+			#content {
+
+				margin-left:250px;
+
+				padding:45px;
+
+				padding-top:20px;
+
+			}
+
+			#content-full {
+
+				margin-left:0;
+
+				padding:45px;
+
+				padding-top:20px;
+
+			}
+			
+
+	#footerContainer{
+
+		background-color:#0098c0;
+
+		clear:both;
+
+	}
+
+		#footer {
+
+			max-width:1110px;
+
+			margin:0 auto;
+
+			text-align: left;
+
+			padding:45px;
+
+			padding-left:35px;
+
+			background-color:#0098c0;
+
+			clear:both;
+
+		}
+
+		.left-foottext {float: left;text-align: justify;padding:0;color: #fff;}
+
+		
+
+			.footh2 {color: #fff !important;font-size: 1.5em !important;font-weight: bold;margin: 10px 0 10px 0;}
+
+			.footh4 {margin: 0px !important;}
+
+			
+
+		.sidebar-footer1 {float: right; margin-top:0; margin-right: 40px;}
+
+		
+
+			ul#menu-footer-menu1-1 {list-style: none;text-align: left;}
+
+			ul#menu-footer-menu1-1 li {border-bottom: 1px solid #fff;padding: 2px 0 3px 0;}
+
+			ul#menu-footer-menu1-1 li a {color: #fff;font-size: 15px;text-decoration: none;text-transform: uppercase;}
+
+			
+
+		.sidebar-footer2 {float: right; margin: 10px; margin-top:0;}
+
+		
+
+			ul#menu-footer-menu1 {list-style: none;text-align: left;}
+
+			ul#menu-footer-menu1 li {border-bottom: 1px solid #fff;padding: 2px 0 3px 0;}
+
+			ul#menu-footer-menu1 li a {color: #fff;font-size: 15px;text-decoration: none;text-transform: uppercase;}
+
+			ul#menu-footer-menu2 {list-style: none;text-align: left;}
+
+			ul#menu-footer-menu2 li {border-bottom: 1px solid #fff;padding: 2px 0 3px 0;}
+
+			ul#menu-footer-menu2 li a {color: #fff;font-size: 15px;text-decoration: none;text-transform: uppercase;}
+
+			
+
+		.sidebar-footer3 {float: right; margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+	
+
+.nav li {float: left;position: relative;}
+
+ul#top-menu > li.current_page_item > a, ul#top-menu > li.current-menu-item > a {
+
+font-size: 14px !important; font-weight: normal; text-decoration: none;
+
+}
+
+ul#top-menu a {
+
+font: 14px 'Open Sans', Arial, sans-serif;
+
+text-decoration: none;color: #e6e6e6;padding: 8px 0;
+
+}
+
+ul#top-menu a:hover {color: #0098c0 !important;text-decoration: none;}
+
+.nav a {display: block;float: left;}
+
+
+
+ul#top-menu ul {
+
+display: none;
+
+position: absolute;
+
+top: 26px;
+
+background: #0098c0;
+
+margin: 0;
+
+padding: 0;
+
+width: 200px;
+
+z-index: 999999;
+
+left:0;
+
+}
+
+ul#top-menu ul li {
+
+float: left;
+
+width: 100%;
+
+text-align: left;
+
+margin: 0;
+
+padding: 0!important;
+
+display: block;
+
+transition: all 0.3s ease-in-out;
+
+-webkit-transition: all 0.3s ease-in-out;
+
+-moz-transition: all 0.3s ease-in-out;
+
+-ms-transition: all 0.3s ease-in-out;
+
+background: #0098c0;
+
+border-bottom: 1px solid #fff;
+
+}
+
+ul#top-menu ul li:hover { background: #fff; color:#0098c0;}
+
+ul#top-menu ul li a {
+
+padding: 6px 10px;
+
+text-align: left;
+
+float:left;
+
+width:90%;
+
+transition: all 0.3s ease-in-out;
+
+-webkit-transition: all 0.3s ease-in-out;
+
+-moz-transition: all 0.3s ease-in-out;
+
+-ms-transition: all 0.3s ease-in-out;
+
+color: #fff;
+
+}
+
+ul#top-menu ul li a:hover {color:#0098c0;}
+
+ul#top-menu li:hover > ul {	display: block;}
+
+
+
+.main { width:100%;background:#fff;float:left;padding-top:75px;}
+
+.hometext {text-align: justify;padding: 0px 30px 5px 30px;color: #2a2a2a;}
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+	.alignright{
+
+		float:none;
+
+		margin:25px;
+
+	}
+
+	.alignleft{
+
+		float:none;
+
+		margin:25px;
+
+	}
+
+	
+
+#container{
+
+}
+
+	#header {
+		background-image:none;
+		height:auto;
+	}
+
+	#menu {
+
+		/* the Responsive Menu WP plugin is making this menu disappear at 770px */
+
+		}
+
+		#logo img {
+
+			max-width:100%;
+
+			height:auto;
+
+			}
+
+	
+
+	#imgslider {
+
+		}
+
+
+
+	#feature {
+
+	}
+
+		#feature img {
+
+		}
+
+		
+
+	#pageContainer{
+
+	}
+
+		#toolbarHome {
+
+			display:none;
+
+		}
+
+			.oneThird {
+
+				width: auto;
+
+
+				float: none;
+
+			}
+
+		#toolbar {
+
+			display:none;
+
+		}
+
+			#pageTitle {
+
+			}
+
+		#page {
+
+		}
+
+			#submenu {
+
+				float: none;
+
+				display:none;
+
+			}
+
+			#content {
+
+				margin:0;
+
+				padding:25px;
+
+			}
+
+			
+
+	#footerContainer{
+
+	}
+
+		#footer {
+
+			margin:0;
+
+			padding:20px;
+
+		}
+
+
+
+		.left-foottext {float: none; margin:10px;}
+
+		
+
+		.sidebar-footer1 {float: none; margin:10px;}
+
+		
+
+		.sidebar-footer2 {float: none; margin:10px;}
+
+		
+
+		.sidebar-footer3 {display:none;}
+
+
+
+}
+

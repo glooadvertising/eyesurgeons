@@ -1,0 +1,48 @@
+[16-Dec-2019 19:54:30 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
+[16-Dec-2019 19:54:30 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[16-Dec-2019 19:54:31 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
+[16-Dec-2019 19:54:31 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[25-Jun-2020 08:49:46 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
+[25-Jun-2020 08:49:47 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[25-Jun-2020 08:49:48 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[25-Jun-2020 08:49:48 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
+[25-Jun-2020 08:49:48 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[25-Jun-2020 08:49:48 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
+[31-Oct-2021 19:46:16 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/index.php on line 2
+[31-Oct-2021 19:46:16 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/hes/public_html/wp-content/themes/eyesurgeons/header.php on line 2
