@@ -23,7 +23,7 @@
     </div>
     <div id="wrapper-two" class="bg-gray-light flex relative flex-col justify-center w-full h-full z-1">
         <div id="wrapper-two-container" class="relative h-full">
-            <section id="hero" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>')" class="flex relative w-full h-50 bg-cover bg-left lg:bg-center">
+            <section id="hero" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>')" class="flex relative w-full h-50 bg-cover bg-[20%_center] md-bg-left lg:bg-center">
             </section>
 
             <section class="bg-blue-dark flex text-white min-h-1/2">

@@ -28,7 +28,7 @@ module.exports = {
       },
       borderWidth: {
         '8': '2rem',
-      }
+      },
     },
   },
   plugins: [],
