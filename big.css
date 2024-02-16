@@ -221,11 +221,11 @@ ul#menu-footer-menu1 {
 	text-align: left;
 }
 ul#menu-footer-menu1 li {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px dotted;
 	padding: 2px 0 3px 0;
 }
 ul#menu-footer-menu1 li a {
-	color: #fff;
+	color: inherit;
 	font-size: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -235,11 +235,11 @@ ul#menu-footer-menu2 {
 	text-align: left;
 }
 ul#menu-footer-menu2 li {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px dotted;
 	padding: 2px 0 3px 0;
 }
 ul#menu-footer-menu2 li a {
-	color: #fff;
+	color: inherit;
 	font-size: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -444,3 +444,98 @@ ul#top-menu li:hover > ul {
 .grecaptcha-badge {
 	display: none;
 }
+
+
+/* Accordion */
+
+	/* Style the buttons that are used to open and close the accordion panel */
+	.accordion {
+		color: #009ac7;
+		cursor: pointer;
+		padding: 18px 0;
+		width: 100%;
+		text-align: left;
+		border: none;
+		border-bottom: 1px solid black;
+		outline: none;
+		transition: 0.4s;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	.accordion:hover {
+		border-color: #009ac7;
+	}
+
+	.accordion > .plus {
+		display: flex;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		position: relative;
+	}
+
+	.plus div {
+		background-color: #1DBAE5;
+		display: flex;
+		position: absolute;
+		width: 20px;
+		height: 2px;
+	}
+	.plus div:last-child {
+		transform: rotate(90deg);
+	}
+	
+	.active {
+		border: none;
+	}
+	.active:hover {
+		background-color: transparent;
+	}
+
+	.active .plus div:last-child {
+		display: none;
+	}
+
+	
+	/* Style the accordion panel. Note: hidden by default */
+	.panel {
+		padding: 0;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+		border-bottom: 1px solid;
+		transition: 1s ease-out display;
+	}
+
+	.panel strong {
+		font-weight: normal;
+		font-size: 0.8rem;
+		line-height: 1;
+	}
+
+	.panel > .wp-block-columns {
+		padding: 2rem 0;
+		border-bottom: 1px dotted #009ac7;
+	}
+
+	.panel > .wp-block-columns:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+	}
+
+	.wp-block-columns > p:last-child {
+		margin-bottom: 0;
+	}
+
+	.panel > ul {
+		list-style: disc;
+		padding-inline-start: 2rem;
+		margin-block-end: 1rem;
+	}
+
+	.panel > ul > li {
+		display: list-item;
+	}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply bg-blue-dark !text-white uppercase py-4 px-8 hover:bg-blue-light transition-all !no-underline
+}

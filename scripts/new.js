@@ -6,3 +6,5 @@ trigger.addEventListener('click', function(e) {
     trigger.classList.toggle('cross')
     mobileMenu.classList.toggle('visible-menu')
 })
+
+

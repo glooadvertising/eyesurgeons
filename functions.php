@@ -1,13 +1,14 @@
 <?php
 
-	function add_theme_scripts() {
-		wp_enqueue_style( 'style', get_stylesheet_uri() );
-		wp_enqueue_style( 'big', get_template_directory_uri() . '/big.css', array(), '1.1', 'all' );
+function add_theme_scripts() {
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'big', get_template_directory_uri() . '/big.css', array(), '1.1', 'all' );
+	wp_enqueue_style( 'tailwind-styles', get_template_directory_uri() . '/tailwind-styles.css', array(), '1.1', 'all' );
 
-		wp_enqueue_script( 'styleswitcher', get_template_directory_uri() . '/scripts/styleswitcher.js', array( 'jquery' ), 1.1, true );
-		wp_enqueue_script( 'new', get_template_directory_uri() . '/scripts/new.js', array(), null, true );
-	}
-	add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+	wp_enqueue_script( 'styleswitcher', get_template_directory_uri() . '/scripts/styleswitcher.js', array( 'jquery' ), 1.1, true );
+	wp_enqueue_script( 'new', get_template_directory_uri() . '/scripts/new.js', array( 'jquery' ), null, true );
+}
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 
 // This adds just one menu location
@@ -95,4 +96,21 @@ return '<a class="more-link" href="' . get_permalink() . '">Read More...</a>';
 }
 
 add_theme_support( 'post-thumbnails' );
+
+
+add_filter( 'the_content', 'wpse412742_class_up_the_paragraphs' );
+/**
+ * Adds classes to all the <p> tags in the content.
+ *
+ * @param  string $content The post content.
+ * @return string          The post content with the classes added to the <p> tags.
+ */
+function wpse412742_class_up_the_paragraphs( $content ) {
+    $content = str_replace(
+        '<p>',
+        '<p class="mb-4">',
+        $content
+    );
+    return $content;
+}
 ?>
