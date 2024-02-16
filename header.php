@@ -7,6 +7,7 @@
     <?php wp_head();?>
 </head>
 <body <?php body_class( 'flex flex-col' )?>>
+    <?php get_template_part( 'partials/mobile-menu' ); ?>
     <header class="bg-white px-12 py-8 flex justify-between items-center z-50">
         <a href="#">
             <img src="<?php echo get_template_directory_uri(); ?>/images/HES_logo.svg" alt="HES logo" class="w-56">

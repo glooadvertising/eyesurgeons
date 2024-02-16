@@ -1,6 +1,6 @@
 <footer class="bg-gray-lighter flex text-black min-h-1/2 border-b-8 border-blue-dark">
         <div class="grid lg:flex container w-page mx-auto px-6 py-14 gap-8">
-            <div class="flex flex-col w-full lg:w-1/4">
+            <div class="flex flex-col w-full lg:w-1/3 xl:w-1/2">
                 <p class="mb-1"><strong>T: (03)6110 6000</strong></p>
                 <p class="mb-1"><strong>HOBART</strong> - 181 Argyle Street</p>
                 <p class="mb-1"><strong>KINGSTON</strong> - Shop 93, Channel Court</p>
@@ -8,19 +8,19 @@
                 <p class="mb-1"><strong>GLENORCHY</strong> - 3 / 370, Main Road</p>
 
             </div>
-            <div class="flex flex-col w-full lg:w-1/4">
-            </div>
-            <div class="flex flex-col w-full lg:w-1/4">
-                <?php wp_nav_menu([
-					'menu' => 'Footer Menu1',
-					'theme_location' => 'Footer menu'
-				]); ?>
-            </div>
-            <div class="flex flex-col w-full lg:w-1/4">
-				<?php wp_nav_menu([
-					'menu' => 'Footer Menu2',
-					'theme_location' => 'Footer menu'
-				]); ?>
+            <div class="grid gap-8 sm:flex lg:w-2/3 xl:w-1/2">
+                <div class="flex flex-col w-full sm:w-1/2 xl:w-1/2">
+                    <?php wp_nav_menu([
+                        'menu' => 'Footer Menu1',
+                        'theme_location' => 'Footer menu'
+                    ]); ?>
+                </div>
+                <div class="flex flex-col w-full sm:w-1/2 xl:w-1/2">
+                    <?php wp_nav_menu([
+                        'menu' => 'Footer Menu2',
+                        'theme_location' => 'Footer menu'
+                    ]); ?>
+                </div>
             </div>
         </div>
     </footer>
