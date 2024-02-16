@@ -5,3 +5,32 @@
 .btn {
     @apply bg-blue-dark !text-white uppercase py-4 px-8 hover:bg-blue-light transition-all !no-underline
 }
+
+#menu-header-menu-1 > li:last-child {
+    @apply bg-blue-dark !text-white uppercase hover:bg-blue-light transition-all !no-underline ml-4
+}
+
+
+#menu-header-menu-1 {
+    @apply inline-flex
+}
+
+#menu-header-menu-1 li {
+    @apply flex flex-col uppercase hover:bg-blue-light transition-all static
+}
+
+#menu-header-menu-1 li a {
+    @apply p-4 gap-4 !text-inherit !no-underline hover:!text-white
+}
+
+#menu-header-menu-1 li ul {
+    @apply hidden bg-blue-light text-white w-auto mt-14
+}
+
+#menu-header-menu-1 li:hover ul {
+    @apply grid absolute
+}
+
+#menu-header-menu-1 li ul li {
+    @apply flex text-xs hover:bg-blue-dark
+}

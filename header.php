@@ -9,26 +9,14 @@
 <body <?php body_class( 'flex flex-col' )?>>
     <?php get_template_part( 'partials/mobile-menu' ); ?>
     <header class="bg-white px-12 py-8 flex justify-between items-center z-50">
-        <a href="#">
+        <a href="<?php echo site_url(); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/images/HES_logo.svg" alt="HES logo" class="w-56">
         </a>
         <nav class="hidden xl:flex items-center gap-4">
-            <ul class="flex">
-                <li class="flex uppercase hover:bg-gray-200 transition-all">
-                    <a href="/" class="p-4 gap-4 !text-inherit !no-underline">Home</a></li>
-                <li class="flex uppercase hover:bg-gray-200 transition-all">
-                    <a href="/about-u" class="p-4 !text-inherit !no-underline gap-4">About us</a>
-                </li>
-                <li class="flex uppercase hover:bg-gray-200 transition-all">
-                    <a href="/surgeons" class="p-4 !text-inherit !no-underline gap-4">Surgeons</a>
-                </li>
-                <li class="flex uppercase hover:bg-gray-200 transition-all">
-                    <a href="/services" class="p-4 !text-inherit !no-underline gap-4">Services</a>
-                </li>
-                <li class="flex uppercase hover:bg-gray-200 transition-all">
-                    <a href="/feedback" class="p-4 !text-inherit !no-underline gap-4">Feedback</a>
-                </li>
-            </ul>
-            <a href="/contact-us" class="btn">Contact us</a>
+            <?php wp_nav_menu(array(
+                'menu' => 'Header Menu',
+                'container' => null
+
+            )); ?>
         </nav>
     </header>
