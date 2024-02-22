@@ -8,16 +8,19 @@
     <main id="main-wrapper" class="relative flex flex-col w-full h-full min-h-96">
     <div id="wrapper-one" class="flex absolute justify-center w-full h-full z-1">
         <div id="form-container-wrapper" class="flex items-start relative w-page h-full mx-auto self-center px-8">
-            <div id="form-container" class="bg-blue-light hidden lg:flex flex-col h-auto sticky top-4 mt-25 mb-16 p-16 gap-12 w-1/2 translate-x-full shadow-lg z-10">
-                <h2 class="text-white text-2xl font-bold">BOOK YOUR FREE ASSESMENT</h2>
-                <form action="" class=" flex flex-col gap-6">
-                    <input type="text" class="p-4 h-14" placeholder="Full name">
-                    <input type="email" class="p-4 h-14" placeholder="Email address">
-                    <input type="phone" class="p-4 h-14" placeholder="Phone number">
-                    <textarea name="" id="" cols="30" rows="10" class="p-4" placeholder="Message"></textarea>
-                    <input type="button" value="Submit" class="btn inline-flex ml-auto cursor-pointer hover:ring-2 hover:ring-white hover:ring-inset">
-                </form>
-                <p class="mb-4 text-white text-sm">In your free assessment we carefully assess your condition, your lifestyle (including sports and hobbies), your eligibility, and overall eye health. We then recommend the treatment that best suits you individually.</p>
+            <div class="flex flex-col z-10 relative w-full lg:w-1/2 lg:translate-x-full pt-50 lg:pt-44 mb-16 gap-12 h-full">
+                <h1 class="text-blue-dark bg-white p-4 font-bold text-4xl -translate-y-24 lg:translate-y-0 md:text-4xl xl:text-6xl uppercase text-center shadow-lg">Game Changer!</h1>
+                <div id="form-container" class="bg-blue-light hidden lg:flex flex-col sticky top-4 h-auto p-16 gap-12 w-full shadow-lg z-10">
+                    <h2 class="text-white text-2xl font-bold">BOOK YOUR FREE ASSESMENT</h2>
+                    <form action="" class=" flex flex-col gap-6">
+                        <input type="text" class="p-4 h-14" placeholder="Full name">
+                        <input type="email" class="p-4 h-14" placeholder="Email address">
+                        <input type="phone" class="p-4 h-14" placeholder="Phone number">
+                        <textarea name="" id="" cols="30" rows="10" class="p-4" placeholder="Message"></textarea>
+                        <input type="button" value="Submit" class="btn inline-flex ml-auto cursor-pointer hover:ring-2 hover:ring-white hover:ring-inset">
+                    </form>
+                    <p class="mb-4 text-white text-sm">In your free assessment we carefully assess your condition, your lifestyle (including sports and hobbies), your eligibility, and overall eye health. We then recommend the treatment that best suits you individually.</p>
+                </div>
             </div>
         </div>
     </div>
