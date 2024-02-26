@@ -541,9 +541,14 @@ ul#top-menu li:hover > ul {
 	}
 
 
-div.wpforms-container-full {
-    margin: 0 !important;
-    margin-left: 0 !important;
-    margin-left: 0 !important;
-}
+	/* wp forms */
 
+	div.wpforms-container-full {
+		margin: 0 0 !important;
+		border: none;
+	}
+
+	div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+		max-width: 100% !important;
+		border: none;
+	}

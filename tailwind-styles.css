@@ -1064,6 +1064,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:z-10 {
+    z-index: 10;
+  }
+
+  .lg\:z-0 {
+    z-index: 0;
+  }
+
   .lg\:flex {
     display: flex;
   }
