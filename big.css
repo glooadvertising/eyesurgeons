@@ -539,3 +539,11 @@ ul#top-menu li:hover > ul {
 	.panel > ul > li {
 		display: list-item;
 	}
+
+
+div.wpforms-container-full {
+    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-left: 0 !important;
+}
+
