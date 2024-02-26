@@ -19,7 +19,6 @@
                             <textarea name="" id="" cols="30" rows="10" class="p-4" placeholder="Message"></textarea>
                             <input type="button" value="Submit" class="btn inline-flex ml-auto cursor-pointer hover:ring-2 hover:ring-white hover:ring-inset">
                         </form>
-                        <!-- <?php echo do_shortcode( '[wpforms id="1008" title="false"]' ); ?> -->
                         <p class="mb-4 text-white text-sm">In your free assessment we carefully assess your condition, your lifestyle (including sports and hobbies), your eligibility, and overall eye health. We then recommend the treatment that best suits you individually.</p>
                     </div>
                 </div>
