@@ -13,7 +13,7 @@ mobileContainer.addEventListener("click", () => {
 
 // mobile menu
 let trigger = document.querySelector('#mobile-menu-trigger')
-let mobileMenu = document.querySelector('#mobile-menu')
+let mobileMenu = document.querySelector('#wpforms-1008')
 let showing = document.querySelector('#show')
 let hiding = document.querySelector('#hide')
 let minus = document.querySelector('#minus')
