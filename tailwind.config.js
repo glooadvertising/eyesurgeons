@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.php", "./tepmplate-parts/*.php"],
+  content: ["./*.php", "./partials/*.php"],
   theme: {
     extend: {
       colors: {
@@ -24,7 +24,8 @@ module.exports = {
       },
       width: {
         page: '1440px',
-        blog: '1280px'
+        blog: '1280px',
+        '75': '75%'
       },
       borderWidth: {
         '8': '2rem',

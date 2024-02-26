@@ -1,5 +1,5 @@
 <footer class="bg-gray-lighter flex text-black min-h-1/2 border-b-8 border-blue-dark">
-        <div class="grid lg:flex container w-page mx-auto px-6 py-14 gap-8">
+        <div class="grid w-full lg:flex mx-auto px-8 py-14 gap-8">
             <div class="flex flex-col w-full lg:w-1/3 xl:w-1/2">
                 <p class="mb-1"><strong>T: (03)6110 6000</strong></p>
                 <p class="mb-1"><strong>HOBART</strong> - 181 Argyle Street</p>
@@ -25,7 +25,7 @@
         </div>
     </footer>
 
+    <?php get_template_part( 'partials/mobile-form' ); ?>
 <?php wp_footer(); ?>
-
 </body>
 </html>

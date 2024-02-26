@@ -119,6 +119,12 @@ a:active {
 			.oneThird {
 
 				float: left;
+				text-align: left;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+				gap: 1rem;
 
 			}
 
@@ -480,7 +486,7 @@ ul#top-menu li:hover > ul {	display: block;}
 		
 
 	#pageContainer{
-
+		flex-direction: column;
 	}
 
 		#toolbarHome {
@@ -500,7 +506,6 @@ ul#top-menu li:hover > ul {	display: block;}
 
 		#toolbar {
 
-			display:none;
 
 		}
 
@@ -522,7 +527,7 @@ ul#top-menu li:hover > ul {	display: block;}
 
 			#content {
 
-				margin:0;
+				margin-left: 0 !important;
 
 				padding:25px;
 

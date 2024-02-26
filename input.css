@@ -16,7 +16,7 @@
 }
 
 #menu-header-menu-1 li {
-    @apply flex flex-col uppercase hover:bg-blue-light transition-all static
+    @apply flex flex-col uppercase hover:bg-blue-light transition-all static w-auto
 }
 
 #menu-header-menu-1 li a {
@@ -33,4 +33,20 @@
 
 #menu-header-menu-1 li ul li {
     @apply flex text-xs hover:bg-blue-dark
+}
+
+#mobile-menu .menu-header-menu-container #top-menu {
+    @apply flex flex-col
+}
+
+#mobile-menu .menu-header-menu-container #top-menu li {
+    @apply relative !h-full flex flex-col bg-transparent text-white
+}
+
+#mobile-menu .menu-header-menu-container #top-menu li ul {
+    @apply flex flex-col h-0 overflow-hidden
+}
+
+#mobile-menu .menu-header-menu-container #top-menu li:hover ul {
+    @apply bg-blue-light flex flex-col w-full h-auto relative transition-all
 }

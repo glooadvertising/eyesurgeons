@@ -1,4 +1,4 @@
-<section class="bg-white flex text-blue-dark min-h-1/2">
+<section class="bg-white flex text-blue-dark min-h-1/2 relative z-40">
     <div class="grid lg:flex container w-page mx-auto px-8 py-16 gap-36">
         <div class="left-col flex flex-col w-full lg:w-1/2">
             <h2 class="text-2xl font-bold mb-6">FAQ</h2>

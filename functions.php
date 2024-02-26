@@ -6,7 +6,7 @@ function add_theme_scripts() {
 	wp_enqueue_style( 'tailwind-styles', get_template_directory_uri() . '/tailwind-styles.css', array(), '1.1', 'all' );
 
 	wp_enqueue_script( 'styleswitcher', get_template_directory_uri() . '/scripts/styleswitcher.js', array( 'jquery' ), 1.1, true );
-	wp_enqueue_script( 'new', get_template_directory_uri() . '/scripts/new.js', array( 'jquery' ), null, true );
+	wp_enqueue_script( 'new', get_template_directory_uri() . '/scripts/new.js', array('jquery'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
