@@ -2,7 +2,7 @@
         <div class="grid w-full lg:flex mx-auto px-8 py-14 gap-8">
             <div class="flex flex-col w-full lg:w-1/3 xl:w-1/2">
                 <p class="mb-1"><strong>T: (03) 6210 6000</strong></p>
-                <p class="mb-1"><strong>HOBART</strong> - 181 Argyle Street</p>
+                <p class="mb-1"><strong>HOBART</strong> - 182 Argyle Street</p>
                 <p class="mb-1"><strong>KINGSTON</strong> - Shop 93, Channel Court</p>
                 <p class="mb-1"><strong>ROSNY PARK</strong> - Level 1, 11 Bayfield Street</p>
                 <p class="mb-1"><strong>GLENORCHY</strong> - 3 / 370, Main Road</p>
