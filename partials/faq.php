@@ -22,7 +22,7 @@
                         <div></div>
                     </span>
                 </button>
-                <div class="panel">
+                <div class="panel text-gray-dark">
                     <?php the_content();?>
                 </div>
             <?php }?>

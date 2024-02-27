@@ -223,6 +223,7 @@ ul#menu-footer-menu1, ul#menu-footer-menu2-1  {
 ul#menu-footer-menu1 li, ul#menu-footer-menu2-1 li {
 	border-bottom: 1px dotted;
 	padding: 2px 0 3px 0;
+	font-weight: bolder;
 }
 ul#menu-footer-menu1 li a, ul#menu-footer-menu2-1 li a {
 	color: inherit;
@@ -237,6 +238,7 @@ ul#menu-footer-menu2 {
 ul#menu-footer-menu2 li {
 	border-bottom: 1px dotted;
 	padding: 2px 0 3px 0;
+	font-weight: bolder;
 }
 ul#menu-footer-menu2 li a {
 	color: inherit;
@@ -490,6 +492,7 @@ ul#top-menu li:hover > ul {
 	
 	.active {
 		border: none;
+		border-bottom: 1px solid #505050;
 	}
 	.active:hover {
 		background-color: transparent;
@@ -503,6 +506,7 @@ ul#top-menu li:hover > ul {
 	/* Style the accordion panel. Note: hidden by default */
 	.panel {
 		padding: 0;
+		padding-top: 1rem;
 		background-color: white;
 		display: none;
 		overflow: hidden;

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-    @apply bg-blue-dark !text-white uppercase py-4 px-8 hover:bg-blue-light transition-all !no-underline
+.btn, #wpforms-submit-1008.wpforms-submit {
+    @apply bg-blue-dark !text-white uppercase py-4 px-8 hover:bg-blue-light transition-all !no-underline border-blue-dark hover:border-white float-end
 }
 
 #menu-header-menu-1 > li:last-child {

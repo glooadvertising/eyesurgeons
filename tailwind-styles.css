@@ -858,18 +858,22 @@ video {
   text-transform: uppercase;
 }
 
-.\!text-inherit {
-  color: inherit !important;
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.\!text-inherit {
+  color: inherit !important;
 }
 
 .text-blue-dark {
   --tw-text-opacity: 1;
   color: rgb(5 150 192 / var(--tw-text-opacity));
+}
+
+.text-gray-dark {
+  --tw-text-opacity: 1;
+  color: rgb(80 80 80 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -895,7 +899,10 @@ video {
   transition-duration: 150ms;
 }
 
-.btn {
+.btn, #wpforms-submit-1008.wpforms-submit {
+  float: inline-end;
+  --tw-border-opacity: 1;
+  border-color: rgb(5 150 192 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(5 150 192 / var(--tw-bg-opacity));
   padding-top: 1rem;
@@ -911,7 +918,9 @@ video {
   transition-duration: 150ms;
 }
 
-.btn:hover {
+.btn:hover, #wpforms-submit-1008.wpforms-submit:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(29 186 229 / var(--tw-bg-opacity));
 }
@@ -1064,10 +1073,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:z-10 {
-    z-index: 10;
-  }
-
   .lg\:z-0 {
     z-index: 0;
   }
@@ -1092,12 +1097,12 @@ video {
     width: 66.666667%;
   }
 
-  .lg\:w-page {
-    width: 1440px;
-  }
-
   .lg\:w-56 {
     width: 14rem;
+  }
+
+  .lg\:w-page {
+    width: 1440px;
   }
 
   .lg\:translate-x-full {
