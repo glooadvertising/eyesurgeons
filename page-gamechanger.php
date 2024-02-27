@@ -20,7 +20,9 @@
                             <input type="button" value="Submit" class="btn inline-flex ml-auto cursor-pointer hover:ring-2 hover:ring-white hover:ring-inset">
                         </form> -->
                         <?php echo do_shortcode( '[wpforms id="1008" title="false"]' ); ?>
-                        <p class="mb-4 text-white text-sm">In your free assessment we carefully assess your condition, your lifestyle (including sports and hobbies), your eligibility, and overall eye health. We then recommend the treatment that best suits you individually.</p>
+                        <p class="mb-4 text-white text-sm italic">
+                            Submit your details and one of our team members will contact you to line up an appointment for your free assessment to assess eligibility, treatment plan, and quote.
+                        </p>
                     </div>
                 </div>
             </div>
