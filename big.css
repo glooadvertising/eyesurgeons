@@ -552,7 +552,22 @@ ul#top-menu li:hover > ul {
 		border: none;
 	}
 
-	div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+	div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form input[type=text] {
 		max-width: 100% !important;
 		border: none;
+	}
+
+	.wpforms-confirmation-container-full {
+		background: transparent !important;
+		border: 3px solid #0596C0 !important;
+		box-sizing: border-box;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.wpforms-confirmation-container-full p {
+		color: #0596C0 !important;
+		font-weight: bolder;
 	}
