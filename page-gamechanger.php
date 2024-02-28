@@ -11,7 +11,7 @@
                 <div class="flex flex-col z-10 relative w-full lg:w-1/2 lg:translate-x-full pt-50 lg:pt-44 mb-16 gap-12 h-full">
                     <h1 class="text-blue-dark bg-white p-4 font-bold text-4xl -translate-y-24 lg:translate-y-0 md:text-4xl xl:text-6xl uppercase text-center shadow-lg">Game Changer!</h1>
                     <div id="form-container" class="bg-blue-light hidden lg:flex flex-col sticky top-4 h-auto p-16 gap-12 w-full shadow-lg z-10">
-                        <h2 class="text-white text-2xl font-bold">BOOK YOUR FREE ASSESMENT</h2>
+                        <h2 class="text-white text-2xl font-bold">BOOK YOUR FREE ASSESSMENT</h2>
                         <!-- <form action="" class=" flex flex-col gap-6">
                             <input type="text" class="p-4 h-14" placeholder="Full name">
                             <input type="email" class="p-4 h-14" placeholder="Email address">
