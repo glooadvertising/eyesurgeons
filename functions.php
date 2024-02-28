@@ -7,6 +7,13 @@ function add_theme_scripts() {
 
 	wp_enqueue_script( 'styleswitcher', get_template_directory_uri() . '/scripts/styleswitcher.js', array( 'jquery' ), 1.1, true );
 	wp_enqueue_script( 'new', get_template_directory_uri() . '/scripts/new.js', array('jquery'), null, true );
+
+	if(is_page('gamechanger')) {
+		wp_enqueue_script( 'form', get_template_directory_uri() . '/scripts/form.js', array('jquery'), null, true );
+	} else {
+		null;
+	}
+	
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
