@@ -24,7 +24,7 @@
             </div>
     </div>
     <div id="page">
-                <?php if(is_page('thankyou')){?>
+                <?php if(!is_page('thankyou')){?>
                 <div id="submenu">
                     <div id="secondary" class="widget-area" role="complementary">
                         <?php if ( is_active_sidebar( 'sidebar-1' ) ) :
