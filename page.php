@@ -34,7 +34,7 @@
                 </div>
                 <?php }?>
 
-                <?php is_page('thankyou') ? header( "refresh:5;url=https://www.eyesurgeons.com.au/" ) : null; ?>
+                <?php is_page('thankyou') ? header( "refresh:5;url=https://www.eyesurgeons.com.au/laser-vision-correction/gamechanger/" ) : null; ?>
                 
                 <div id="content">
                     <?php the_content(); ?>
