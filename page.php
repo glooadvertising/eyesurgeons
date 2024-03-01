@@ -33,6 +33,8 @@
                         </div>
                 </div>
                 <?php }?>
+
+                <?php is_page('thankyou') ? header( "refresh:5;url=index.php" ) : null; ?>
                 
                 <div id="content">
                     <?php the_content(); ?>
